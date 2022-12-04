@@ -1,5 +1,4 @@
-#!/usr/bin/python3
-for lowercase in range(ord('a'), ord('z')+1):
-    if lowercase == 'e' or lowercase == 'q':
-        continue
-    print("{:c}".format(lowercase), end="")
+#!/usr/bin/pyth0n3
+for i in range(97, 123):
+    if i != 101 and i != 113:
+        print("{}".format(chr(i)), end="")
